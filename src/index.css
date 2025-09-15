@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Basic global styles that don't rely on custom classes */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
+
+/* Keep any small project-level helpers here if needed */
